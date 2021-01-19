@@ -28,7 +28,7 @@ class ViewController: UIViewController,WKNavigationDelegate {
         
         webView.navigationDelegate = self
         
-        let url = URL(string: "https://manus-machina.com/")
+        let url = URL(string: "http://35.72.49.51/")
         let request = URLRequest(url: url!)
         webView.load(request)
 
